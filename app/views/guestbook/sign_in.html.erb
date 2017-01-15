@@ -1,0 +1,7 @@
+<h1 class="page_title">Guestbook</h1>
+<%=form_tag :action => "sign_in" do%>
+<p>enter your name:</p>
+<%=text_field_tag "visitor_name", @name%>
+<%=submit_tag "enter name in guestbook"%><br/><br/>
+<%end%>
+<a href="people">Guestbook</a>

@@ -1,0 +1,7 @@
+<h1>Guestbook</h1>
+<p><u>Previous visitors</u></p>
+<ul>
+  <%@people.each do |people|%>
+  <li><%= people.name%></li>
+  <%end%>
+</ul>
